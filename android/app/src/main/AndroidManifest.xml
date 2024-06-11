@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="bcs_three_gr_eleven"
+        android:label="contraints_example"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

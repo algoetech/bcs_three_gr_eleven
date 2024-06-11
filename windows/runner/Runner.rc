@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "bcs_three_gr_eleven" "\0"
+            VALUE "CompanyName", "com.constraints" "\0"
+            VALUE "FileDescription", "contraints_example" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "bcs_three_gr_eleven" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "bcs_three_gr_eleven.exe" "\0"
-            VALUE "ProductName", "bcs_three_gr_eleven" "\0"
+            VALUE "InternalName", "contraints_example" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.constraints. All rights reserved." "\0"
+            VALUE "OriginalFilename", "contraints_example.exe" "\0"
+            VALUE "ProductName", "contraints_example" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

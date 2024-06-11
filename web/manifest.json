@@ -1,11 +1,11 @@
 {
-    "name": "bcs_three_gr_eleven",
-    "short_name": "bcs_three_gr_eleven",
+    "name": "contraints_example",
+    "short_name": "contraints_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Simple Flutter project for illustrating basic functionalities based on some features",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
