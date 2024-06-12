@@ -15,7 +15,7 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
                     if (constraints.maxWidth > 600) {
                         return WideLayout();
                     } else {
-                            return NarrowLayout();
+                        return NarrowLayout();
                     }
                 },
             ),
