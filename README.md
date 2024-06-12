@@ -5,7 +5,36 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
 ## Features
 
 - **Responsive Design**: The app uses `SafeArea`, `Expanded`, `MediaQuery`, and `LayoutBuilder` to adapt the UI based on the screen size. It has different layouts for wide and narrow screens.
+
+    ```dart
+     // .... existing codes
+        body: SafeArea(
+            child: LayoutBuilder(
+                builder: (context, constraints) {
+                    // If the screen width is greater than 600, use WideLayout; otherwise, use NarrowLayout.
+                    if (constraints.maxWidth > 600) {
+                        return WideLayout();
+                    } else {
+                            return NarrowLayout();
+                    }
+                },
+            ),
+        ),
+    // .... existing codes
+    ```
+
 - **State Management**: The app uses the `Provider` package for state management. The registration data is managed using a `ChangeNotifier` model.
+
+        ```dart
+            // .... existing codes
+            ChangeNotifierProvider(
+                create: (context) => RegistrationModel(),
+                child: MyApp(),
+            ),
+
+            // ... codes
+        ```
+
 - **Form Validation**: The registration form includes fields for first name, middle name, last name, gender, email address, phone number, and country of birth.
 
 ## How to Run
@@ -13,11 +42,18 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
 1. Make sure you have Flutter installed. You can follow the installation guide [here](https://flutter.dev/docs/get-started/install).
 2. Clone this repository .
     ```bash
-   git clone https://github.com/algoetech/constraints_example.git
+   $ git clone https://github.com/algoetech/constraints_example.git
     ```
 3. Open the project directory in your preferred IDE.
 4. Run `flutter pub get` to install the dependencies.
+    ```bash
+    $ flutter pub get
+    ```
+
 5. Run the app using `flutter run`.
+    ```bash
+    $ flutter run
+    ```
 
 ## File Structure
 
