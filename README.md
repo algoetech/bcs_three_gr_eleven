@@ -1,4 +1,4 @@
-# contraints_example : 
+# Contraints Example : Responsive design.
 
 A Simple Flutter project for illustrating basic functionalities based on some features. It demonstrates responsive design and state management. The app allows users to fill out a registration form and view the submitted details on a separate screen.
 
@@ -11,7 +11,7 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
 ## How to Run
 
 1. Make sure you have Flutter installed. You can follow the installation guide [here](https://flutter.dev/docs/get-started/install).
-2. Clone this repository.
+2. Clone this repository .
     ```bash
    git clone https://github.com/algoetech/constraints_example.git
     ```
@@ -22,7 +22,7 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
 ## File Structure
 
 - `main.dart`: The main entry point of the application. It sets up the responsive design and state management.
-- `registration_model.dart`: Contains the `RegistrationModel` class which manages the registration data.
+- `models/registration.dart`: Contains the `RegistrationModel` class which manages the registration data.
 
 ## Screens
 

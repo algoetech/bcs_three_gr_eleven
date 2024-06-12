@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
+// import 'package:tailwind_cli/tailwind_cli.dart';
+// import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
+// import 'package:tailwind_standards/tailwind_standards.dart';
 import 'models/registration.dart';
 
 void main() {
@@ -148,6 +150,7 @@ class NarrowLayout extends StatelessWidget {
               decoration: InputDecoration(labelText: 'Country of Birth'),
               onChanged: (value) => model.setCountryOfBirth(value),
             ),
+            // a submit button
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
