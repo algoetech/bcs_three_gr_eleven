@@ -25,15 +25,14 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
 
 - **State Management**: The app uses the `Provider` package for state management. The registration data is managed using a `ChangeNotifier` model.
 
-        ```dart
-            // .... existing codes
-            ChangeNotifierProvider(
-                create: (context) => RegistrationModel(),
-                child: MyApp(),
-            ),
-
-            // ... codes
-        ```
+    ```dart
+        // .... existing codes
+        ChangeNotifierProvider(
+            create: (context) => RegistrationModel(),
+            child: MyApp(),
+        ),
+        // ... codes
+    ```
 
 - **Form Validation**: The registration form includes fields for first name, middle name, last name, gender, email address, phone number, and country of birth.
 
@@ -42,21 +41,21 @@ A Simple Flutter project for illustrating basic functionalities based on some fe
 1. Make sure you have Flutter installed. You can follow the installation guide [here](https://flutter.dev/docs/get-started/install).
 2. Clone this repository .
     ```bash
-        $ git clone https://github.com/algoetech/constraints_example.git
+        git clone https://github.com/algoetech/constraints_example.git
     ```
 3. Open the project directory in your preferred IDE or terminal.
     ```bash
-        $ cd constraints_example
+        cd constraints_example
     ```
   if you are using `vscode` run `code .`
 4. Run `flutter pub get` to install the dependencies.
     ```bash
-    $ flutter pub get
+    flutter pub get
     ```
 
 5. Run the app using `flutter run`.
     ```bash
-    $ flutter run
+    flutter run
     ```
 
 ## File Structure
